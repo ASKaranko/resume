@@ -163,6 +163,12 @@ body {
     margin-left: 17px;
 }
 
+.projects-container-digits li {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #1e2939;
+}
+
 .projects-container-link {
     color: #898989;
     font-size: 14px;

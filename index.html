@@ -4,20 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My resume</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <meta name='freelancehunt' content='7b9fe1e0fde88b2' />
 </head>
 <body>
 
-<section>
-    <div class="color"></div>
-    <div class="color"></div>
-    <div class="color"></div>
+    <div class="box">
+        <div class="square sq1" style="--i:0"></div>
+        <div class="square sq2" style="--i:1"></div>
+        <div class="square sq3" style="--i:2"></div>
+    </div>
+
     <!-- main container -->
     <div class="wrapper">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
         <aside class="sidebar">
             <div>
-                <img class="my-photo" src="./img/photo.jpg" alt="My photo">
+                <div class="card">
+                    <div class="content">
+                        <img class="my-photo" src="./img/photo.jpg" alt="My photo">
+                        <div class="contentBx">
+                            <h3>Andrei Karanko</h3>
+                            <span>JavaScript developer</span>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--icon:1">
+                            <a href="https://www.facebook.com/ASKaranko">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li style="--icon:2">
+                            <a href="https://t.me/a_karanko">
+                                <i class="fa fa-telegram" aria-hidden="true"></i>
+
+                            </a>
+                        </li>
+                        <li style="--icon:3">
+                            <a href="https://www.instagram.com/a_karanko/">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
                 <!-- contacts container -->
                 <div class="contacts-container">
@@ -263,7 +295,6 @@
         </div>
     </div>
 
-</section>
 
 </body>
 </html>

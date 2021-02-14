@@ -586,8 +586,19 @@ body {
     .wrapper {
         flex-direction: column;
         align-items: center;
+        overflow-x: hidden;
     }
     .sidebar {
         background: none;
+        width: 95%;
     }
+    .contacts-container {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 400px) {
+   .block {
+       margin-left: 0;
+   }
 }
